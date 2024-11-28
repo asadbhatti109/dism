@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <p id="a">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nisi reprehenderit doloremque quia labore pariatur veritatis deserunt aliquam doloribus ab!</p>
+    <button id="b">HIDE</button>
+    <button id="c">SHOW</button>
+    <button id="d">COLOR</button>
+    <script>
+        $(document).ready(function(){
+            $("#b").click(function(){
+                $("#a").hide(3000)
+            })
+            $("#c").click(function(){
+                $("#a").show(3000)
+            })
+            $("#d").click(function(){
+              $("#a").css("color","red")
+              $("#a").css("font-size","25px")
+            })
+
+
+
+        })
+    </script>
+
+    <!-- Footer -->

@@ -1,0 +1,28 @@
+.a{
+    background-color: rgb(189, 164, 189);
+}
+.b{
+    margin-left: auto;
+    margin-left: auto;
+    gap: 2rem;
+}
+#c:hover{
+    background-color:rgb(144, 87, 144);
+    color: white;
+
+}
+.pa{
+    font-size: 25px;
+    font-weight: bold;
+    background-color:rgb(189, 164, 189) ;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+.x{
+  
+    font-size: 32px;
+}
+.s{
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+<label for="">NAME</label>
+<input type="text" placeholder="Enter your name" id="name"><br><br>
+<label for="">AGE</label>
+<input type="text" placeholder="Enter your age" id="age"><br><br>
+<label for="">GENDER</label>
+<select name="" id="gender">
+    <option value="">ENTER YOUR GENDER</option>
+    <option value="male">MALE</option>
+    <option value="female">fEMALE</option>
+</select><br><br>
+<label for="">NATIONALITY</label>
+<select name="" id="nat">
+    <option value="">ENTER YOUR NATIONALITY</option>
+    <option value="pakistani">pakistani</option>
+    <option value="other">other</option>
+</select><br><br>
+<button onclick="abc()">SUBMIT</button>
+    </form>
+    <script>
+        function abc(){
+            var name=document.getElementById("name").value;
+             var age=document.getElementById("age").value;
+            var gender=document.getElementById("gender").value;
+            var nat=document.getElementById("nat").value;
+
+            document.write("<b>NAME</b>:"+" "+name+"<br>"+"<br>"+"<b>AGE</b>:"+" "+age+"<br>")
+
+        }
+    </script>
+</body>
+</html>
